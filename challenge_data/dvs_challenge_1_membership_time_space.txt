@@ -1,0 +1,10 @@
+#Data Dictionary for Data Visualization Society Challenge 1
+
+* `lat`: `decimal latitude to eight decimal degrees because Google geocoding is all about fake precision`
+* `long`: `decimal longitude`
+* `data`: `average of the three scores in the "data" section of the survey (collection, cleaning, analysis)`
+* `visualization`: `average of the three scores in the "visualization" section of the survey ("design", "storytelling", "building")`
+* `society`: `average of the three scores in the "society" section of the survey ("leadership", "community", "management")`
+* `date_with_hour`: `date with 24-hour hour of signup`
+* `date`: `date of signup`
+* `hour`: `hour of signup`
