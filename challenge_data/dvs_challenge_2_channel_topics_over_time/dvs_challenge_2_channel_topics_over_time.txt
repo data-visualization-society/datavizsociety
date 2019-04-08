@@ -1,0 +1,23 @@
+#Data Dictionary for Data Visualization Society Challenge 2
+
+
+## flattened_channel_data.csv
+
+* `date`: `the day of members posting (Pacific Time Zone)`
+* `channel`: `the channel to which members are posting`
+* `posts`: `the number of posts made in the channel on that day`
+* `responses`: `the number of threaded responses made to all posts on that day`
+* `reactions`: `the number of emojis posted in that channel on that day`
+* `attachments`: `the number of files attached in that channel on that day`
+
+## channel_data.json
+
+An object with a `data` prop that is an array of objects with a `date` and a key for each channel with the above information as props on that channel giving posting statistics for that channel for that day.
+
+## channel_data.csv
+
+Unlike the flattened data, each row is a date and the channel column is a five item array showing `characters`, `posts`, `responses`, `reactions`, `attachments` for that day for that channel.
+
+## emoji_over_time.csv
+
+Specific emojis used and count per day per channel.
