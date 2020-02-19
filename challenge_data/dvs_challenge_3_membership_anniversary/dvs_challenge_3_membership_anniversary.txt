@@ -1,0 +1,8 @@
+#Data Dictionary for Data Visualization Society Challenge 3
+
+* `lat`: `decimal latitude`
+* `long`: `decimal longitude`
+* `data`: `average of the three scores in the "data" section of the survey (collection, cleaning, analysis)`
+* `visualization`: `average of the three scores in the "visualization" section of the survey ("design", "storytelling", "building")`
+* `society`: `average of the three scores in the "society" section of the survey ("leadership", "community", "management")`
+* `date`: `date of signup`
